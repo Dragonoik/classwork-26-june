@@ -1,0 +1,95 @@
+body{
+	background: url(https://i.imgur.com/rsvgdbm.png);
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.moon{
+	position: absolute;
+	top: 40vh;
+	left: 40vw;
+	background: url(https://i.imgur.com/EHrvLa0.png) no-repeat;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+}
+
+.UFO{
+	background: url(https://i.imgur.com/7ovKJVk.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-size: 150%;
+	background-size: cover;
+	position: absolute;
+	top: 45vh;
+	left: 45vw;
+	transition: all 2s ease-in-out;
+}
+
+.UFO1{
+	transition-delay: 0.1s;
+}
+
+.UFO2{
+	transition-delay: 0.2s;
+}
+
+.UFO3{
+	transition-delay: 0.3s;
+}
+
+.UFO4{
+	transition-delay: 0.4s;
+}
+
+.UFO5{
+	transition-delay: 0.5s;
+}
+
+.UFO6{
+	transition-delay: 0.6s;
+}
+
+.UFO7{
+	transition-delay: 0.7s;
+}
+
+.UFO8{
+	transition-delay: 0.8s;
+}
+
+.container:hover .ship1{
+	transform: translate(-250px, -250px);
+}
+
+.moon:hover .ship2{
+	transform: translate(-250px, 0);
+}
+
+.moon:hover .ship3{
+	transform: translate(-250px, 0);
+}
+
+.moon:hover .ship4{
+	transform: translate(-250px, 0);
+}
+
+.moon:hover .ship5{
+	transform: translate(-250px, 0);
+}
+
+.moon:hover .ship6{
+	transform: translate(-250px, 0);
+}
+
+.moon:hover .ship7{
+	transform: translate(-250px, 0);
+}
+
+.moon:hover .ship8{
+	transform: translate(-250px, 0);
+}
